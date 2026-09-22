@@ -1,3 +1,220 @@
 <DOCTYPE html>
+ <html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aadrika Sharma — Resume</title>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#182B2A;
+    --paper:#FAF8F3;
+    --teal:#2F6E64;
+    --teal-light:#E7EFEA;
+    --gold:#B4892F;
+    --line:#D8D2C4;
+    --muted:#5B6763;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter',sans-serif;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3{font-family:'Lora',serif;}
+  .wrap{max-width:920px;margin:0 auto;padding:56px 28px 80px;}
+
+  header{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items:flex-end;
+    gap:24px;
+    border-bottom:2px solid var(--ink);
+    padding-bottom:28px;
+    margin-bottom:36px;
+  }
+  header h1{font-size:2.6rem;font-weight:600;letter-spacing:-0.01em;}
+  header .tagline{color:var(--teal);font-style:italic;font-size:1.05rem;margin-top:6px;font-family:'Lora',serif;}
+  .contact{text-align:right;font-size:0.92rem;color:var(--muted);line-height:1.75;}
+  .contact a{color:var(--teal);text-decoration:none;}
+  .contact a:hover{text-decoration:underline;}
+
+  .summary{
+    font-family:'Lora',serif;
+    font-size:1.12rem;
+    max-width:70ch;
+    color:#2A3B39;
+    margin-bottom:44px;
+  }
+
+  .layout{display:grid;grid-template-columns:2fr 1fr;gap:48px;}
+  @media (max-width:680px){
+    .layout{grid-template-columns:1fr;}
+    header{flex-direction:column;align-items:flex-start;}
+    .contact{text-align:left;}
+  }
+
+  section{margin-bottom:40px;}
+  h2{
+    font-size:0.85rem;
+    font-weight:600;
+    color:var(--teal);
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    border-bottom:1px solid var(--line);
+    padding-bottom:8px;
+    margin-bottom:18px;
+  }
+
+  .timeline{list-style:none;border-left:2px solid var(--teal-light);}
+  .timeline li{position:relative;padding:0 0 26px 24px;}
+  .timeline li::before{
+    content:'';
+    position:absolute;
+    left:-7px;top:4px;
+    width:12px;height:12px;
+    border-radius:50%;
+    background:var(--paper);
+    border:2px solid var(--teal);
+  }
+  .timeline li:last-child{padding-bottom:0;}
+  .role{font-weight:600;font-size:1rem;}
+  .year{color:var(--gold);font-weight:600;font-size:0.85rem;}
+  .desc{color:var(--muted);font-size:0.94rem;margin-top:4px;}
+
+  .edu h3{font-size:1.05rem;font-weight:600;}
+  .edu .school{color:var(--teal);font-weight:600;}
+  .edu p{color:var(--muted);font-size:0.92rem;margin-top:4px;}
+
+  ul.plain{list-style:none;}
+  ul.plain li{padding:5px 0;font-size:0.94rem;border-bottom:1px dotted var(--line);}
+  ul.plain li:last-child{border-bottom:none;}
+
+  .pill-list{display:flex;flex-wrap:wrap;gap:8px;}
+  .pill{
+    background:var(--teal-light);
+    color:var(--teal);
+    font-size:0.82rem;
+    font-weight:500;
+    padding:6px 12px;
+    border-radius:3px;
+  }
+
+  .activities li{margin-bottom:16px;font-size:0.94rem;color:#2A3B39;}
+  .activities li strong{display:block;color:var(--ink);font-family:'Lora',serif;font-size:0.98rem;margin-bottom:2px;}
+
+  footer{margin-top:20px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:0.82rem;text-align:center;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div>
+      <h1>Aadrika Sharma</h1>
+      <div class="tagline">Aspiring physician · Researcher · Lifeguard</div>
+    </div>
+    <div class="contact">
+      505 Holsten Bank Way, Cary, NC 27519<br>
+      (919) 771-5745<br>
+      <a href="mailto:Aadrikasharma.cool@gmail.com">Aadrikasharma.cool@gmail.com</a><br>
+      <a href="https://www.linkedin.com/in/aadrika-sharma-051b95329/" target="_blank">LinkedIn</a>
+    </div>
+  </header>
+
+  <p class="summary">Motivated high school senior with a strong interest in medical science and research, grounded in biology, chemistry, and anatomy. Experience spans hospital shadowing, diagnostic lab work, published health research, and two-plus years leading a student-founded life safety nonprofit. Seeking hands-on opportunities to grow toward a career in medicine.</p>
+
+  <div class="layout">
+    <div>
+      <section>
+        <h2>Experience</h2>
+        <ul class="timeline">
+          <li>
+            <div class="role">Shadowing at WakeMed &amp; Select Specialty</div>
+            <div class="year">2025</div>
+            <div class="desc">Shadowed WakeMed's Pathology department, observing phlebotomy and diagnostic lab processes. Shadowed Dr. Vikas Pathak (Pulmonologist) at Select Specialty Hospital, observing rounds, critical care, and team interactions.</div>
+          </li>
+          <li>
+            <div class="role">Founder, Life Safety Organization</div>
+            <div class="year">2025</div>
+            <div class="desc">Founded a student-led life safety nonprofit, running community outreach on water safety, CPR, and emergency response over 2+ years.</div>
+          </li>
+          <li>
+            <div class="role">Summer Intern, Vero Diagnostics</div>
+            <div class="year">2024</div>
+            <div class="desc">Worked at a diagnostics lab in Apex, learning hospital testing workflows, including how COVID-19 and UTIs are tested.</div>
+          </li>
+          <li>
+            <div class="role">Lifeguard, Triangle Aquatic Center</div>
+            <div class="year">2023 – Present</div>
+            <div class="desc">Ensuring water safety and emergency response as a certified lifeguard.</div>
+          </li>
+          <li>
+            <div class="role">Summer Intern, Lunespark</div>
+            <div class="year">2024</div>
+            <div class="desc">Assisted instruction and classroom management for students ages 8–11.</div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="activities">
+        <h2>Leadership &amp; Activities</h2>
+        <ul>
+          <li><strong>Health disparities research</strong>Studied health disparities between Native Asian Indians and Indian/Nepali immigrants in America; published in NHSJS.</li>
+          <li><strong>POE Youth Empowerment Group</strong>Led vape-prevention advocacy through community presentations, a WRAL documentary feature, and Escape the Vape week; published articles in Sathee Magazine.</li>
+          <li><strong>Green Level Marching Band</strong>Member for 4 years and leader of the relations committee; helped the band earn 3rd place at the Bands of America Maryland competition.</li>
+        </ul>
+      </section>
+    </div>
+
+    <div>
+      <section class="edu">
+        <h2>Education</h2>
+        <h3>Green Level High School</h3>
+        <div class="school">GPA 4.574</div>
+        <p>Senior, anticipated graduation 2026</p>
+      </section>
+
+      <section>
+        <h2>Honors &amp; Awards</h2>
+        <ul class="plain">
+          <li>President's Award (Gold) for Volunteering</li>
+          <li>AP Scholar (twice)</li>
+          <li>National Honor Society</li>
+          <li>Junior Marshal</li>
+          <li>Student Ambassador</li>
+          <li>Team Award – Marching Band</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <div class="pill-list">
+          <span class="pill">Certified Lifeguard</span>
+          <span class="pill">Trilingual</span>
+          <span class="pill">Leadership</span>
+          <span class="pill">Communication</span>
+        </div>
+      </section>
+
+      <section>
+        <h2>Interests</h2>
+        <div class="pill-list">
+          <span class="pill">Music &amp; Band</span>
+          <span class="pill">Swimming</span>
+          <span class="pill">Medical Science</span>
+          <span class="pill">Nutrition</span>
+          <span class="pill">Baking</span>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <footer>Aadrika Sharma — Resume</footer>
+</div>
+</body>
+</html>
     
-</DOCTYPE>
