@@ -147,7 +147,7 @@ p {
   line-height: 1.8;
 }
 
-/* Phones and small windows: one column */
+
 @media (max-width: 800px) {
   .card {
     padding: 24px;
