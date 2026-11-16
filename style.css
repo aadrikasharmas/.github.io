@@ -1,7 +1,7 @@
 body {
   font-family: Georgia, "Times New Roman", serif;
-  background-color: #f0f2f1;
-  color: #1f2b2b;
+  background-color: #ffffff;
+  color: #13294B;
   margin: 0;
 }
 
@@ -15,12 +15,13 @@ body {
 }
 
 .navbar a {
-  color: #1f2b2b;
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
 }
 
 .navbar a:hover {
+  color:#4B9CD3;
   text-decoration: underline;
 }
 
@@ -37,6 +38,7 @@ main {
   height: 220px;
   object-fit: cover;
   border-radius: 50%;
+  border: 5px solid #4B9CD3;
 }
 
 h1 {
@@ -71,5 +73,5 @@ p {
 }
 
 .button-row a:hover {
-  background-color: #111111;
+  background-color: #13294B;
 }
