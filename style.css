@@ -55,14 +55,14 @@ p {
 }
 
 .button-row {
-  display:flex;
+  display: flex;
   justify-content: center;
   gap: 12px;
   margin: 0 0 24px 0;
 }
 
 .button-row a {
-  background-color: #2f3338
+  background-color: #2f3338;
   color: #ffffff;
   text-decoration: none;
   font-weight: bold;
