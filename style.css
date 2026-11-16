@@ -62,14 +62,14 @@ p {
 }
 
 .button-row a {
-  background-color: #2f3338;
+  background-color: #4B9CD3;
   color: #ffffff;
   text-decoration: none;
   font-weight: bold;
   padding: 12px 28px;
-  border-radius: 999px;
+  border-radius: 0.2s;
 }
 
 .button-row a:hover {
-  background-color: #4a5056;
+  background-color: #111111;
 }
