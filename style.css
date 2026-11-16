@@ -5,9 +5,13 @@ body {
   margin: 0;
 }
 
-.navbar {
-  background-color: #13294B
+.about-page {
+  background-color: #EEF4F9;
+}
 
+/* Navigation bar */
+.navbar {
+  background-color: #13294B;
 }
 
 .navbar ul {
@@ -26,14 +30,42 @@ body {
 }
 
 .navbar a:hover {
-  color:#4B9CD3;
+  color: #4B9CD3;
   text-decoration: underline;
 }
 
 main {
   max-width: 750px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 40px 20px;
+}
+
+/* Header band */
+.hero {
+  background-color: #13294B;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 110px;
+}
+
+.hero .navbar {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.hero-content {
+  padding: 36px 20px 0;
+}
+
+.hero h1 {
+  color: #ffffff;
+  margin: 0 0 8px 0;
+}
+
+.subtitle {
+  color: #cfe3f3;
+  font-size: 1.15rem;
+  line-height: 1.5;
+  margin: 0 0 24px 0;
 }
 
 .profile-photo {
@@ -46,30 +78,12 @@ main {
   border: 5px solid #4B9CD3;
 }
 
-h1 {
-  text-align: center;
-  font-size: 3rem;
-  color: #13294B;
-  margin: 0 0 30px 0;
-}
-
-h2 {
-  font-size: 1.6rem;
-  color:#13294B;
-  border-bottom: 3px solid #4B9CD3;
-  padding-bottom: 6px;
-}
-
-p {
-  font-size: 1.1rem;
-  line-height: 1.8;
-}
-
+/* Buttons */
 .button-row {
   display: flex;
   justify-content: center;
   gap: 12px;
-  margin: 0 0 24px 0;
+  margin: 0;
 }
 
 .button-row a {
@@ -79,9 +93,67 @@ p {
   font-weight: bold;
   padding: 12px 28px;
   border-radius: 999px;
-  transition: background-color 0.2s;
+  transition: background-color 0.2s, color 0.2s;
 }
 
 .button-row a:hover {
-  background-color: #13294B;
+  background-color: #ffffff;
+  color: #13294B;
+}
+
+/* The card that overlaps the header */
+.page {
+  max-width: 1100px;
+  margin: -70px auto 0;
+  padding: 0 24px 60px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-top: 4px solid #4B9CD3;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(19, 41, 75, 0.12);
+  padding: 32px 40px;
+}
+
+.card h2 {
+  margin: 0 0 16px 0;
+}
+
+.card-text {
+  column-count: 2;
+  column-gap: 40px;
+}
+
+.card-text p {
+  margin: 0 0 16px 0;
+}
+
+/* Text */
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #13294B;
+  margin: 0 0 30px 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #13294B;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+/* Phones and small windows: one column */
+@media (max-width: 800px) {
+  .card {
+    padding: 24px;
+  }
+
+  .card-text {
+    column-count: 1;
+  }
 }
