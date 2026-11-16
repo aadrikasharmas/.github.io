@@ -5,7 +5,6 @@ body {
   margin: 0;
 }
 
-/* Navigation bar */
 .navbar {
   background-color: #13294B;
 }
@@ -36,7 +35,7 @@ main {
   padding: 40px 20px;
 }
 
-/* Navy header section */
+
 .hero {
   background-color: #13294B;
   color: #ffffff;
@@ -74,7 +73,7 @@ main {
   border: 5px solid #4B9CD3;
 }
 
-/* Buttons */
+
 .button-row {
   display: flex;
   justify-content: center;
@@ -97,7 +96,7 @@ main {
   color: #13294B;
 }
 
-/* White section with the text */
+
 .page {
   max-width: 900px;
   margin: 0 auto;
@@ -114,7 +113,7 @@ main {
   margin: 0 0 20px 0;
 }
 
-/* Text */
+
 h1 {
   text-align: center;
   font-size: 3rem;
