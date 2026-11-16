@@ -5,10 +5,6 @@ body {
   margin: 0;
 }
 
-.about-page {
-  background-color: #EEF4F9;
-}
-
 /* Navigation bar */
 .navbar {
   background-color: #13294B;
@@ -40,12 +36,12 @@ main {
   padding: 40px 20px;
 }
 
-/* Header band */
+/* Navy header section */
 .hero {
   background-color: #13294B;
   color: #ffffff;
   text-align: center;
-  padding-bottom: 110px;
+  padding-bottom: 60px;
 }
 
 .hero .navbar {
@@ -101,32 +97,21 @@ main {
   color: #13294B;
 }
 
-/* The card that overlaps the header */
+/* White section with the text */
 .page {
-  max-width: 1100px;
-  margin: -70px auto 0;
-  padding: 0 24px 60px;
-}
-
-.card {
-  background-color: #ffffff;
-  border-top: 4px solid #4B9CD3;
-  border-radius: 12px;
-  box-shadow: 0 6px 20px rgba(19, 41, 75, 0.12);
-  padding: 32px 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px 24px 70px;
 }
 
 .card h2 {
-  margin: 0 0 16px 0;
-}
-
-.card-text {
-  column-count: 2;
-  column-gap: 40px;
+  margin: 0 0 24px 0;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #4B9CD3;
 }
 
 .card-text p {
-  margin: 0 0 16px 0;
+  margin: 0 0 20px 0;
 }
 
 /* Text */
@@ -145,15 +130,4 @@ h2 {
 p {
   font-size: 1.1rem;
   line-height: 1.8;
-}
-
-
-@media (max-width: 800px) {
-  .card {
-    padding: 24px;
-  }
-
-  .card-text {
-    column-count: 1;
-  }
 }
