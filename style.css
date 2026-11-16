@@ -53,3 +53,23 @@ p {
   font-size: 1.1rem;
   line-height: 1.8;
 }
+
+.button-row {
+  display:flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 0 0 24px 0;
+}
+
+.button-row a {
+  background-color: #2f3338
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 12px 28px;
+  border-radius: 999px;
+}
+
+.button-row a:hover {
+  background-color: #4a5056;
+}
