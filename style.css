@@ -123,3 +123,40 @@ p {
   font-size: 1.1rem;
   line-height: 1.8;
 }
+
+.page-header {
+  background-color: #13294B;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.page-header .navbar {
+  border-bottom: 1px solid rgba(255, 255, 255,0.15);
+
+}
+
+.page-header-content {
+  padding: 36px 20px 0;
+}
+
+.page-header .subtitle {
+  margin: 0;
+}
+
+.resume-actions {
+  margin: 0 0 24px 0;
+}
+
+.resume-actions a:hover {
+  background-color: #13294B;
+  color: #ffffff;
+
+}
+
+.pdf-viewer {
+  width: 100%;
+  height: 900px;
+  border: 1px solid #cfd8e0;
+  border-radius: 8px;
+}
