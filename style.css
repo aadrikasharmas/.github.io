@@ -18,10 +18,15 @@ body {
   padding: 20px;
 }
 
-navbar a:hover {
+.navbar a {
   color: #ffffff;
   text-decoration: none;
   font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #4B9CD3;
+  text-decoration: underline;
 }
 
 main {
@@ -138,6 +143,11 @@ p {
 
 .page-header-content {
   padding: 36px 20px 0;
+}
+
+.page-header h1 {
+  color: #ffffff;
+  margin: 0 0 8px 0;
 }
 
 .page-header .subtitle {
