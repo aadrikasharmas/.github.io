@@ -39,7 +39,7 @@ main {
   background-color: #13294B;
   color: #ffffff;
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 90px;
 }
 
 .hero .navbar {
@@ -47,35 +47,36 @@ main {
 }
 
 .hero-content {
-  padding: 36px 20px 0;
+  padding: 60px 20px 0;
 }
 
 .hero h1 {
   color: #ffffff;
-  margin: 0 0 8px 0;
+  font-size: 3.6rem;
+  margin: 0 0 12px 0;
 }
 
 .subtitle {
   color: #cfe3f3;
-  font-size: 1.15rem;
+  font-size: 1.3rem;
   line-height: 1.5;
-  margin: 0 0 24px 0;
+  margin: 0 0 32px 0;
 }
 
 .profile-photo {
   display: block;
-  margin: 0 auto 20px auto;
-  width: 220px;
-  height: 220px;
+  margin: 0 auto 28px auto;
+  width: 280px;
+  height: 280px;
   object-fit: cover;
   border-radius: 50%;
-  border: 5px solid #4B9CD3;
+  border: 6px solid #4B9CD3;
 }
 
 .button-row {
   display: flex;
   justify-content: center;
-  gap: 12px;
+  gap: 16px;
   margin: 0;
 }
 
@@ -84,7 +85,8 @@ main {
   color: #ffffff;
   text-decoration: none;
   font-weight: bold;
-  padding: 12px 28px;
+  font-size: 1.05rem;
+  padding: 14px 34px;
   border-radius: 999px;
   transition: background-color 0.2s, color 0.2s;
 }
