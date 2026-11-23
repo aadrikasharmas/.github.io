@@ -261,3 +261,7 @@ p {
 .research-quote {
 margin-bottom: 40px;
 }
+
+.card + .card {
+  margin-top: 40px;
+}
